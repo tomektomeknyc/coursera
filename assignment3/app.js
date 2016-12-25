@@ -64,7 +64,7 @@
 
                  $http({
                     method: 'GET',
-                    url: ('http://davids-restaurant.herokuapp.com/menu_items.json')
+                    url: ('/http://davids-restaurant.herokuapp.com/menu_items.json')
 
                 }).then (function(result) {
                      var menu_items = result.data.menu_items;
