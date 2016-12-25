@@ -7,7 +7,7 @@
         app.controller('NarrowItDownController', NarrowItDownController);
         app.service('MenuSearchService', MenuSearchService);
         app.directive('foundItems', FoundItems);
-       
+        app.constant('UrlPath', "https://davids-restaurant.herokuapp.com");
 
 
            function FoundItems() {
