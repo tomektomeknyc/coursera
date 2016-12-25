@@ -7,7 +7,7 @@
         app.controller('NarrowItDownController', NarrowItDownController);
         app.service('MenuSearchService', MenuSearchService);
         app.directive('foundItems', FoundItems);
-        app.constant('UrlPath', "http://davids-restaurant.herokuapp.com");
+       
 
 
            function FoundItems() {
@@ -64,7 +64,7 @@
 
                  $http({
                     method: 'GET',
-                    url: ('/http://davids-restaurant.herokuapp.com/menu_items.json')
+                    url: ('https://davids-restaurant.herokuapp.com/menu_items.json')
 
                 }).then (function(result) {
                      var menu_items = result.data.menu_items;
