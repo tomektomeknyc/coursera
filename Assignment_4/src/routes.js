@@ -25,7 +25,7 @@ function RoutesConfig($stateProvider, $urlRouterProvider) {
     }
   })
   .state('categories.items', {
-      url: '/cateory-items/{cat}',
+      url: '/category-items/{cat}',
       templateUrl: 'src/menuapp/templates/main-items-template.html',
       controller: 'ItemDetailController as itemDetail',
       resolve:{
