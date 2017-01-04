@@ -1,7 +1,15 @@
-a[ui-sref]:hover {
-  display: inline-block;
-  cursor: pointer;
-  border: solid blue 1px;
-  padding-left: 6px;
-  padding-right: 6px;
+a[ui-sref]: {
+    display: inline-block;
+    border: solid orangered 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
 }

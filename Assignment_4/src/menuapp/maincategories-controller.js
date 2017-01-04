@@ -8,7 +8,7 @@
   function MainCategoriesController(catlist) {
     var ctrl = this;
 
-    ctrl.categories = 1;
+
     ctrl.catlist = catlist;
   }
 })();

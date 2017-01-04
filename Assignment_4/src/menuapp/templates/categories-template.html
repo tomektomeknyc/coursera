@@ -1,10 +1,10 @@
 <div class="row">
-  <table >
+  <table class= "table-bordered" >
     <thead>
       <th>Categories</th>
     </thead>
     <tbody>
-      <tr  ng-repeat="category in $ctrl.categoryList">
+      <tr ng-repeat="category in $ctrl.categoryList">
 
         <td><a ui-sref="categories.items({cat: category.short_name})">{{category.short_name}}</a> </td>
       </tr>
